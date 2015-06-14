@@ -57,6 +57,10 @@ feature 'client can fill in a quiz' do
         select '5', from: 'pe1_2_target'
         click_button 'Next section'
         expect(page).to have_content 'Results'
+        expect(page).to have_content 'Strategy: 2.5/5'
+        expect(page).to have_content 'Technology: 2.5/5'
+        expect(page).to have_content 'People: 2.5/5'
+        expect(page).to have_content 'Processes: 2.5/5'
       end
     end
   end

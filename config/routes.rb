@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   post '/quiz/sections/people' => 'quiz#update_people'
   post '/quiz/sections/processes' => 'quiz#update_processes'
   post '/quiz/sections/technology' => 'quiz#update_technology'
+  get '/quiz/sections/results' => 'quiz#results'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
