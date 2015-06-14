@@ -1,0 +1,13 @@
+<%= form_for @client do |f| %>
+  <%= f.label :company_name %>
+  <%= f.text_field :company_name %>
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+  <%= f.label :sector %>
+  <%= f.select :sector, ['FMCG', 'Retail'] %>
+  <%= f.label :size %>
+  <%= f.select :size, ['small', 'medium'] %>
+  <%= f.label :can_contact%>
+  <%= f.check_box :can_contact %>
+  <%= f.submit 'Start quiz' %>
+<% end %>

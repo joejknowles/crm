@@ -1,0 +1,12 @@
+<p>Please answer as many questions as possible</p>
+<form action='/quiz/sections/<%= @section.name %>' method='post'>
+  <% @section.questions.each do |question| %>
+    <div id='<%= question.question_key %>'>
+      <%= label_tag question.question_key + '_current', 'Current maturity' %>
+      <%= select_tag question.question_key + '_current', options_for_select((1..5).to_a) %>
+      <%= label_tag question.question_key + '_target', 'Target maturity' %>
+      <%= select_tag question.question_key + '_target', options_for_select((1..5).to_a) %>
+    </div>
+  <% end %>
+  <button>Next section</button>
+</form>

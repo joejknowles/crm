@@ -1,0 +1,66 @@
+{
+  "strategy": {
+    "questions": [
+      {
+        "question_key": "s1_1",
+        "question_text": "To what extent is your business strategy driven by what you learn about your customers?",
+        "immature_description": "Customer experience is an afterthought when considering strategy.",
+        "mature_description": "Customer experience is at the core of every business decision."
+      },
+      {
+        "question_key": "s1_2",
+        "question_text": "How do you know whether your customer strategy is successful?",
+        "immature_description": "There are only loosely defined goals and metrics are poorly defined.",
+        "mature_description": "Customer facing strategies has measurable goals and specific metrics."
+      }
+    ]
+  },
+  "processes": {
+    "questions": [
+      {
+        "question_key": "p1_1",
+        "question_text": "To what extent is your business strategy driven by what you learn about your customers?",
+        "immature_description": "Customer experience is an afterthought when considering strategy.",
+        "mature_description": "Customer experience is at the core of every business decision."
+      },
+      {
+        "question_key": "p1_2",
+        "question_text": "How do you know whether your customer strategy is successful?",
+        "immature_description": "There are only loosely defined goals and metrics are poorly defined.",
+        "mature_description": "Customer facing strategies has measurable goals and specific metrics."
+      }
+    ]
+  },
+  "technology": {
+    "questions": [
+      {
+        "question_key": "t1_1",
+        "question_text": "To what extent is your business strategy driven by what you learn about your customers?",
+        "immature_description": "Customer experience is an afterthought when considering strategy.",
+        "mature_description": "Customer experience is at the core of every business decision."
+      },
+      {
+        "question_key": "t1_2",
+        "question_text": "How do you know whether your customer strategy is successful?",
+        "immature_description": "There are only loosely defined goals and metrics are poorly defined.",
+        "mature_description": "Customer facing strategies has measurable goals and specific metrics."
+      }
+    ]
+  },
+  "people": {
+    "questions": [
+      {
+        "question_key": "pe1_1",
+        "question_text": "To what extent is your business strategy driven by what you learn about your customers?",
+        "immature_description": "Customer experience is an afterthought when considering strategy.",
+        "mature_description": "Customer experience is at the core of every business decision."
+      },
+      {
+        "question_key": "pe1_2",
+        "question_text": "How do you know whether your customer strategy is successful?",
+        "immature_description": "There are only loosely defined goals and metrics are poorly defined.",
+        "mature_description": "Customer facing strategies has measurable goals and specific metrics."
+      }
+    ]
+  }
+}

@@ -10,6 +10,10 @@ group :development, :test do
   gem 'rspec-rails'
   # Use capybara for interface testing
   gem 'capybara'
+  # Use shoulda matches for model unit tests
+  gem 'shoulda'
+  # Use database cleaner for cleaning inbetween tests
+  gem 'database_cleaner'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
