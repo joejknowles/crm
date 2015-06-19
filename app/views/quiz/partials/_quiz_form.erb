@@ -4,6 +4,7 @@
   <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
   <% @section.questions.each do |question| %>
     <div id='<%= question.question_key %>'>
+      <p><%= question.question_text %></p>
       <%= label_tag question.question_key + '_current', 'Current maturity' %>
       <%= select_tag question.question_key + '_current', options_for_select((1..5).to_a) %>
       <%= label_tag question.question_key + '_target', 'Target maturity' %>
